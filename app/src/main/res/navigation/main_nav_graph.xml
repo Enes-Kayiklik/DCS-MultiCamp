@@ -27,6 +27,6 @@
         android:label="DetailFragment" >
         <argument
             android:name="currentCommunity"
-            app:argType="com.eneskayiklik.dscmulticamp.model.communitie.CommunityItem" />
+            app:argType="com.eneskayiklik.dscmulticamp.model.communitiy.CommunityItem" />
     </fragment>
 </navigation>

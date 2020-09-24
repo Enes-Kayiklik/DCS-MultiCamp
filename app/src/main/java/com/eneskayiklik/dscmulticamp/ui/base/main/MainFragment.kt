@@ -16,6 +16,7 @@ class MainFragment: Fragment(R.layout.fragment_main) {
     private val mainViewModel: MainViewModel by viewModels()
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        progressMain.visibility = View.VISIBLE
         setupObserver()
     }
 
@@ -23,6 +24,7 @@ class MainFragment: Fragment(R.layout.fragment_main) {
         mainViewModel.communityData.observe(this.viewLifecycleOwner, Observer {
             recyclerViewCommunity.layoutManager = GridLayoutManager(this.requireContext(), 2, GridLayoutManager.VERTICAL, false)
             recyclerViewCommunity.adapter = CommunityAdapter(it)
+            progressMain.visibility = View.GONE
         })
     }
 }

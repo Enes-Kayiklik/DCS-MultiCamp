@@ -6,8 +6,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.eneskayiklik.dscmulticamp.model.communitie.Community
-import com.eneskayiklik.dscmulticamp.network.MockApi
+import com.eneskayiklik.dscmulticamp.model.communitiy.Community
 import kotlinx.coroutines.launch
 
 class MainViewModel @ViewModelInject constructor(

@@ -5,10 +5,9 @@ import android.net.Uri
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
-import androidx.navigation.fragment.findNavController
 import com.bumptech.glide.Glide
 import com.eneskayiklik.dscmulticamp.R
-import com.eneskayiklik.dscmulticamp.model.communitie.CommunityItem
+import com.eneskayiklik.dscmulticamp.model.communitiy.CommunityItem
 import kotlinx.android.synthetic.main.fragment_detail.*
 
 class DetailFragment: Fragment(R.layout.fragment_detail) {

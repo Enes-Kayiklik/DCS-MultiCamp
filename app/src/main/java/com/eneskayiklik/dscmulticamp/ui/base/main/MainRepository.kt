@@ -1,6 +1,6 @@
 package com.eneskayiklik.dscmulticamp.ui.base.main
 
-import com.eneskayiklik.dscmulticamp.model.communitie.Community
+import com.eneskayiklik.dscmulticamp.model.communitiy.Community
 import com.eneskayiklik.dscmulticamp.network.MockApi
 import javax.inject.Inject
 import javax.inject.Singleton

@@ -1,6 +1,6 @@
 package com.eneskayiklik.dscmulticamp.network
 
-import com.eneskayiklik.dscmulticamp.model.communitie.Community
+import com.eneskayiklik.dscmulticamp.model.communitiy.Community
 import retrofit2.http.GET
 
 interface MockApi {
