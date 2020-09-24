@@ -1,4 +1,4 @@
-package com.eneskayiklik.dscmulticamp.model.communitie
+package com.eneskayiklik.dscmulticamp.model.communitiy
 
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize

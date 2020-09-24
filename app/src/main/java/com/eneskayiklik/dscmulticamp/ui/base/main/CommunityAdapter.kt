@@ -7,7 +7,7 @@ import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.eneskayiklik.dscmulticamp.R
-import com.eneskayiklik.dscmulticamp.model.communitie.Community
+import com.eneskayiklik.dscmulticamp.model.communitiy.Community
 import kotlinx.android.synthetic.main.one_row_community.view.*
 
 class CommunityAdapter(
