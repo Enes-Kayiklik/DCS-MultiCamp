@@ -1,5 +1,8 @@
 # DCS-MultiCamp Project
 
+### APK
+[![DSC-MultiCamp](https://github.com/Enes-Kayiklik/DCS-MultiCamp/blob/master/apk/dscmulticamp.apk?raw=true)
+
 ## Libraries 🛠
 - [Kotlin](https://kotlinlang.org/) - First class and official programming language for Android development.
 - [Coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html) - For asynchronous and more..
@@ -24,3 +27,14 @@
     |    └── splash
     |   
     └── BaseApplication.kt    # @HiltAndroidApp
+
+<table style="width:100%">
+  <tr>
+    <th>Main Screen</th>
+    <th>Detail Screen</th>
+  </tr>
+  <tr>
+    <td><img src="screenshots/Screenshot_1600967054.png"/></td>
+    <td><img src="screenshots/Screenshot_1600967056.png"/></td>
+  </tr>
+</table>
