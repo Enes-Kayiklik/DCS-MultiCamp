@@ -1,8 +1,7 @@
 # DCS-MultiCamp Project
 
 ### APK
-[![DSC-MultiCamp](https://github.com/Enes-Kayiklik/DCS-MultiCamp/blob/master/apk/dscmulticamp.apk?raw=true)
-
+[![Covid19 App](https://img.shields.io/github/v/release/patilshreyas/covid19-notifier-in?color=%23FFFF&label=Download%20APK&logo=android)](https://github.com/Enes-Kayiklik/DCS-MultiCamp/blob/master/apk/dscmulticamp.apk?raw=true)
 ## Libraries 🛠
 - [Kotlin](https://kotlinlang.org/) - First class and official programming language for Android development.
 - [Coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html) - For asynchronous and more..
