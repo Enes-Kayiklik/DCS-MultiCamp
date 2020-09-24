@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/main_nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.eneskayiklik.dscmulticamp.ui.splash.SplashFragment"
+        android:label="SplashFragment" >
+        <action
+            android:id="@+id/action_splashFragment_to_mainFragment"
+            app:destination="@id/mainFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.eneskayiklik.dscmulticamp.ui.base.main.MainFragment"
+        android:label="MainFragment" >
+        <action
+            android:id="@+id/action_mainFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.eneskayiklik.dscmulticamp.ui.base.DetailFragment"
+        android:label="DetailFragment" >
+        <argument
+            android:name="currentCommunity"
+            app:argType="com.eneskayiklik.dscmulticamp.model.communitie.CommunityItem" />
+    </fragment>
+</navigation>

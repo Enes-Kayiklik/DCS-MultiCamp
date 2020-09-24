@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.base.DetailFragment">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgLeadPhoto"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            app:layout_constraintEnd_toEndOf="@+id/imgBanner"
+            app:layout_constraintStart_toStartOf="@+id/imgBanner"
+            app:layout_constraintTop_toBottomOf="@+id/imgBanner" />
+
+    <TextView
+        android:id="@+id/tvLeadName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/imgLeadPhoto"
+        app:layout_constraintStart_toStartOf="@+id/imgLeadPhoto"
+        app:layout_constraintTop_toBottomOf="@+id/imgLeadPhoto" />
+
+    <TextView
+        android:id="@+id/tvDesc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:textSize="16sp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="@+id/imgLeadPhoto"
+        app:layout_constraintStart_toStartOf="@+id/imgLeadPhoto"
+        app:layout_constraintTop_toBottomOf="@+id/tvLeadName"
+        android:gravity="center"
+        android:padding="4dp">
+
+        <ImageView
+            android:id="@+id/btnInstagram"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_instagram"
+            android:padding="8dp"/>
+
+        <ImageView
+            android:id="@+id/btnTwitter"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_twitter"
+            android:padding="8dp" />
+
+        <ImageView
+            android:id="@+id/btnYoutube"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="8dp"
+            android:src="@drawable/ic_youtube" />
+
+        <ImageView
+            android:id="@+id/btnMeetUp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_chrome"
+            android:padding="8dp" />
+    </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imgBanner"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
